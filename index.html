@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+     <!-- Favicon -->
+     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+   
+
+     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+     <!-- Remix icons -->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+     <!-- swipper -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+     <!-- bootstrap -->
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+     -->
+</head>
+<body>
+    <header class="header" id="header">
+             
+       
+
+        <nav class="navbar">
+            <!-- <img class="logo" src="./assets/images/logo.png" alt="logo"> -->
+            <div class="brand">Body gym</div>
+            <div class="center-menu">
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="right-menu">
+                <a href="#">Sign Up</a>
+                <a href="#">Sign In</a>
+            </div>
+            <div class="toggle-button" onclick="toggleNav()">☰</div>
+        </nav>
+        <!-- Add a close button inside the side navigation bar -->
+        <div class="overlay" id="overlay">
+        <div class="side-nav">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+            <a href="#">Sign Up</a>
+            <a href="#">Sign In</a>
+            <span class="close-button" onclick="closeNav()">&times;</span> <!-- Close button -->
+        </div>
+        </div>
+        
+        </div>
+    </header>
+
+    <!-- banner section -->
+    <div class="banner">
+        <img class="banner-img" src="photoes/gym-2.png" alt="">
+    </div>
+
+
+    <!-- from owner -->
+    
+<div class="first-div">
+    <img class="owner-photo" src="photoes/owner-img.jpg" alt="Owner Photo">
+    <div class="text">
+        <h1 style="color: brown;">About Us</h1>
+        <p>Our aim is to provide the best enviroment possible for men as well as women. Equiped with modern utilities make us inevitable  </p>
+        <a href="#" style="text-decoration: none;">
+            <p style="display: inline;">Learn more</p>
+            <i style="padding-left: 15px;" class="fa fa-arrow-right" aria-hidden="true"></i>
+            
+        </a>
+    </div>
+</div>
+
+  
+        
+
+
+        
+
+
+        <!-- pagination -->
+          <!-- Swiper -->
+       
+  <div class="swiper mySwiper">
+    <h1 class="tool">Our Tools</h1>  
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide"><img class="swiper-img" src="photoes/swiper-5.jpg" alt=""></div>
+      
+      <div class="swiper-slide"><img class="swiper-img" src="photoes/swiper-2.jpg" alt=""></div>
+      <div class="swiper-slide"><img class="swiper-img" src="photoes/swiper-3.jpg" alt=""></div>
+      <div class="swiper-slide"><img class="swiper-img" src="photoes/swiper-4.jpg" alt=""></div>
+      <div class="swiper-slide"><img class="swiper-img" src="photoes/swiper-5.jpg" alt=""></div>
+      <div class="swiper-slide"><img class="swiper-img" src="photoes/swiper-6.jpg" alt=""></div>
+      <div class="swiper-slide"><img class="swiper-img" src="photoes/swiper-2.jpg" alt=""></div>
+      <div class="swiper-slide"><img class="swiper-img" src="photoes/swiper-3.jpg" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+<!-- about us -->
+  <!-- <div class="first-div">
+    <img  class="owner-photo" src="photoes/owner-img.jpg" alt="">
+    <div class="text">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nostrum nisi quae nesciunt repudiandae eius facere ullam quibusdam fugiat veniam est dicta, labore ipsa quos natus mollitia nam harum autem.
+            <a style="text-decoration: none;" href="">
+                <p style="display: inline;">Learn more</p><i style="padding-left:15px;"  class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+              
+            
+           
+            
+        </p>
+    </div>
+  
+</div>  -->
+
+
+ <!-- Customer Review Section -->
+ <h1 class="review-h1" >Customer review</h1>
+
+ <section class="review">
+   
+  <div class="customer-review">
+    <div class="review-item">
+        <div class="customer-photo">
+            <img src="photoes/r-4.png" alt="Customer 1">
+        </div>
+        <div class="customer-name">
+            Timmy
+        </div>
+        <div class="customer-review-text">
+            <p>This is the best gym in Nagaon. It has the best eqiupments and coach. I love going there.</p>
+        </div>
+    </div>
+  
+    <div class="review-item">
+        <div class="customer-photo">
+            <img src="photoes/r-3.png" alt="Customer 2">
+        </div>
+        <div class="customer-name">
+            Sara
+        </div>
+        <div class="customer-review-text">
+            <p>What is unique about this gym is that it is unisex. It has the perfect enviroment for girls.</p>
+        </div>
+    </div>
+  
+    <!-- Add more review items as needed -->
+  </div>
+  
+ </section>
+
+
+<section class="price-section">
+   
+    <div id="pricing">
+        <h1 style="color: brown; text-align: center; font-size: 30px;">A plan for your body</h1>
+        
+        <div id="pricing">
+            <div class="price_card alpha">
+                <div class="price-header">
+                    <span class="price">200R</span>
+                    <span class="name">Alpha Pack</span>
+                </div>
+                <ul class="features">
+                    <li>All the equipments</li>
+                    <li>Instruction on Body building</li>
+                </ul>
+                <button>Sign up</button>
+                <!-- <span class="tip">* Great for beginners!</span> -->
+            </div>
+            <div class="price_card bravo">
+                <div class="price-header">
+                    <span class="price">500R</span>
+                    <span class="name">Bravo Pack</span>
+                </div>
+                <ul class="features">
+                    <li>All the equipments</li>
+                    <li>Instruction on body Building</li>
+                    <li>Instruction on diet</li>
+                </ul>
+                <button>Sign up</button>
+                <!-- <span class="tip">* Most popular!</span> -->
+            </div>
+            <div class="price_card charlie">
+                <div class="price-header">
+                    <span class="price">800R</span>
+                    <span class="name">Charlie Pack</span>
+                </div>
+                <ul class="features">
+                    <li>All the equipments</li>
+                    <li>Personal Instructor for body building.</li>
+                    <li>Personal guide on diet</li>
+                    <li>Access all time 24/7</li>
+                </ul>
+                <button>Sign up</button>
+            </div>
+        </div>
+
+</section>
+
+<h1 class="map-h1">Our Company Location</h1>
+
+<!-- Create a div to hold the map -->
+<div id="map"></div>
+
+
+
+<!-- footer -->
+<footer>
+    <div class="footer-grid">
+        <!-- First Row -->
+        <div class="company-info">
+            <h1>Body Gym</h1>
+            <p>We are here to serve you with the best.</p>
+            <div class="social-media">
+                <a href=""><i class="ri-facebook-circle-line"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-twitter-line"></i></a>
+            </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="useful-links">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+
+        <!-- Third Row -->
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <ul>
+                <li>123 Main Street</li>
+                <li>Nagaon, Assam</li>
+                <li>Email: ikhlassiddique2939@gmail.com</li>
+                <li>Phone: +91 7002559529</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        &copy; 2023 Body gym. All rights reserved.
+    </div>
+</footer>
+
+ 
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=initMap" async defer></script>
+
+  <!-- Initialize Swiper -->
+ 
+
+        
+<!-- javascript -->
+<script src="javascript/function.js"></script>   
+
+
+<!-- swipper -->
+
+
+<!-- bootstrap javascript -->
+
+</body>
+</html>
